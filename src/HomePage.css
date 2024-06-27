@@ -1,0 +1,39 @@
+/* HomePage.css */
+
+.home-page {
+  padding: 20px;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/jl5025-1639090546.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  color: white;
+}
+
+.home-page-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 50px; 
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.home-page ul {
+  list-style-type: none;
+}
+
+.home-page li {
+  margin-bottom: 5px;
+}
+
+.home-page li strong {
+  font-weight: bold;
+}

@@ -1,0 +1,148 @@
+
+#login{
+  color:sandybrown;
+}
+#login-home{
+  color:sandybrown;
+  text-align: center;
+}
+#login-home:hover{
+  color: navy;
+}
+#login:hover{
+  color: navy;
+
+}
+.form{
+  background-color: rgb(213, 20, 20);
+  width: 500px;
+  height: 330px;
+  border-radius: 10px;
+  position: absolute;
+  left: 472px;
+  top: 250px;
+  /* transform: rotate(360deg); */
+  transition: 3s;
+  background-image: url("https://www.bhmpics.com/downloads/react-js-logo-Wallpapers/40.image1-2.jpg");
+  background-size: cover ;
+  
+}
+/* .form:hover{
+  transform: rotate(0deg);
+  transition: 3s;
+  background-image: url("https://wallpapercave.com/wp/wp4923992.png");
+  background-size: 100px ;
+} */
+
+form{
+  padding-top:10px;
+  text-align: center;
+  
+}
+#btform{
+  background-color: aqua;
+}
+#one{
+  background-color: aquamarine;
+  margin-top: 75px;
+  margin-left:50px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  
+}
+#home-one{
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#about-one,#about-two,#about-three{
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+#home:hover{
+  background-color: rgb(129, 129, 231);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 1s;
+  color: chartreuse;
+}
+#cdbt{
+  position: absolute;
+  top: 180px;
+}
+#about-img{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 15px;
+  margin-left: 150px;
+  
+}
+
+#home-main{
+  background-color: rgb(140, 140, 227);
+  display: grid;
+  grid-template-columns: 40% 40%;
+  border-bottom-left-radius: 100px;
+border-bottom-right-radius: 250px;
+height: 400px;
+width: 70%;
+margin-left: 150px;
+}
+#home-main1{
+  padding-left: 30px;
+  text-align: center;
+}
+#home-main2{
+  background-image: url("https://www.yellowslice.in/bed/wp-content/uploads/2022/03/User-Experience-Design-Essentials-in-2022-Banner.jpg ");
+width: 280px;
+height: 400px;
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+margin-left: 230px;
+margin-top: 50px;
+/* https://bccmadurai.com/wp-content/uploads/elementor/thumbs/UX-UI-Design-01-qcq0i3zn82lyiwpry47eisqw8ey1j5aghqglfpn3q8.jpg */
+/* https://www.yellowslice.in/bed/wp-content/uploads/2022/03/User-Experience-Design-Essentials-in-2022-Banner.jpg */
+}
+#contact-main{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+@media (max-width:700px) {
+  #contact-main{
+    position: relative;  
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* color: aqua; */
+  }
+  
+}
+#nav-img{
+  margin-left: 15px;
+}
+#nav-img1{
+  margin-left: 400px;
+}
+#nav-img{
+  margin-right: 10px;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: solid 2px black;
+  text-align: center;
+}
+#grid,#grid1,#grid2,#grid3{
+  border: solid 2px black;
+}
